@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página Pessoal - Luan Magalhães</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    <header>
+        <h1>Sobre Mim</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Informações Gerais</h2>
+            <p>Olá, sou Luan Magalhães, tenho 18 anos e nasci no dia 20/10/2005.</p>
+            <p>Atualmente, estou cursando o curso de Análise e Desenvolvimento de Sistemas no IFRO Campus Ariquemes.</p>
+            <p>Anteriormente, fiz o curso técnico em informática no IFRO Campus Ariquemes.</p>
+            <p>Meu telefone para contato é o (69) 993711482 e meu e-mail é luanpaz032@gmail.com.</p>
+        </section>
+        <section>
+            <h2>Aplicação Educacional</h2>
+            <p>Acesse minha aplicação educativa <a href="index.html">clicando aqui</a>.</p>
+        </section>
+        <section>
+            <h2>Formulário de Contato</h2>
+            <form>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome"><br><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email"><br><br>
+                <label for="mensagem">Mensagem:</label>
+                <textarea id="mensagem" name="mensagem"></textarea><br><br>
+                
+               <!-- RadioButton -->
+               <label for="sexo">Sexo:</label>
+               <input type="radio" id="masculino" name="sexo" value="masculino"> Masculino
+               <input type="radio" id="feminino" name="sexo" value="feminino"> Feminino
+               <input type="radio" id="feminino" name="sexo" value="feminino"> 
+               <br><br>
+
+               <!-- Select -->
+               <label for="interesses">Interesses:</label>
+               <select id="interesses" name="interesses">
+                   <option value="">Selecione um interesse</option>
+                   <option value="tecnologia">Tecnologia</option>
+                   <option value="esporte">Esporte</option>
+                   <option value="arte">Arte</option>
+                   <!-- Adicione mais opções aqui -->
+               </select>
+               <br><br>
+
+                <!-- Select -->
+                <label for="estado">Estado:</label>
+                <select id="estado" name="estado">
+                    <option value="">Selecione um estado</option>
+                    <option value="AC">Acre</option>
+                    <option value="AL">Alagoas</option>
+                    <option value="AP">Amapá</option>
+                    <option value="RO">Rondônia</option>
+                    <!-- Adicione mais opções aqui -->
+                </select>
+                <br><br>
+                
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Luan Magalhães</p>
+    </footer>
+    <script src="script1.js"></script>
+</body>
+</html>

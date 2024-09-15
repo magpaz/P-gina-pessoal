@@ -1,0 +1,93 @@
+<!-- CSS -->
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Fundo branco suave */
+}
+
+header {
+  background-color: #3498db; /* Azul mais vibrante */
+  padding: 20px;
+  text-align: center;
+  color: #fff; /* Branco para contraste */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Adiciona efeito de sombra */
+  border-radius: 10px; /* Adiciona bordas arredondadas */
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+section {
+  background-color: #fff;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px; /* Adiciona bordas arredondadas */
+}
+
+h1, h2 {
+  color: #333;
+  font-weight: bold; /* Negrito para dar mais destaque */
+}
+
+p {
+  color: #666;
+  font-size: 18px; /* Aumenta o tamanho da fonte para melhor legibilidade */
+}
+
+a {
+  text-decoration: none;
+  color: #337ab7;
+}
+
+a:hover {
+  color: #23527c;
+  text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px; /* Adiciona bordas arredondadas */
+  transition: all 0.3s ease-in-out; /* Adiciona efeito de transição */
+}
+
+input[type="submit"] {
+  background-color: #337ab7;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out; /* Adiciona efeito de transição */
+}
+
+input[type="submit"]:hover {
+  background-color: #23527c;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Adiciona efeito de hover */
+}
+
+/* Transition Effects */
+header, section, input[type="submit"] {
+  transition: all 0.3s ease-in-out;
+}
+
+header:hover, section:hover, input[type="submit"]:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
